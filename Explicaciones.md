@@ -16,8 +16,6 @@ data "aws_subnets" "this" {
   }
 }
 ```
-## 1. VPC y Subnets
-
 Estos bloques son cruciales para la configuración de red de nuestra infraestructura:
 
 - **VPC por defecto**: Utilizamos la VPC por defecto de AWS para simplificar la configuración. Esto es útil para pruebas y desarrollo, pero en un entorno de producción, se recomienda crear una VPC personalizada.
