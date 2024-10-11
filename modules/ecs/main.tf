@@ -62,7 +62,7 @@ resource "aws_ecs_task_definition" "task" {
 
   container_definitions = jsonencode([{
     name  = "nginx"
-    image = "thomasalberto/nginx-hola-chamo:latest" //nginx:latest cambio imagen para probar
+    image = "thomasalberto/nginx-hola-chamo:latest" //nginx:latest
     portMappings = [{
       containerPort = 80
       hostPort      = 80
